@@ -1,0 +1,34 @@
+.formm {
+    display: flex;
+    border-top: 2px solid rgba(1, 1, 1, 0.3);
+    height: 14%;
+}
+
+.input {
+    border: none;
+    border-radius: 0;
+    padding: 5%;
+    width: 80%;
+    font-size: 1rem;
+    font-family: var(--body-font);
+    border-radius: 0 0 0 12px;
+}
+
+input:focus, textarea:focus, select:focus{
+outline: none;
+}
+
+.sendButton {
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 1rem;
+    background: hsl(187deg 100% 49% / 97%);
+    padding: 20px;
+    font-family: var(--body-font);
+    display: inline-block;
+    border: none;
+    width: 20%;
+    border-left: 2px solid rgba(1, 1, 1, 0.1);
+    cursor: pointer;
+    border-radius: 0 0 12px 0;
+}

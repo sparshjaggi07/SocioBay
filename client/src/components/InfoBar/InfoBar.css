@@ -1,0 +1,30 @@
+.infoBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(1, 1, 1, 1);
+    border-radius:12px 12px 0 0;
+    height: 60px;
+    font-family: var(--body-font);
+    width: 100%;
+}
+
+.leftInnerContainer {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    color: white;
+    font-family: var(--body-font);
+}
+
+.rightInnerContainer {
+    display: flex;
+    flex: 0.5;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.onlineIcon {
+    margin-right: 5%;
+}
